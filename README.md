@@ -14,7 +14,7 @@
 
 ## :clock3: Project Period
 
-2021.11.20 ~ 2021.11.23 (총 4일)
+2021.10.7 ~ 2021.10.10 (총 4일)
 
 ## :hammer: Installation
 
