@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   flex-direction: column;
   @media (max-width: 768px) {
     width: 100%;
-    padding: 0px;
+    padding: 0;
   }
 `;
 export const Header = styled.div`
@@ -22,7 +22,6 @@ export const Header = styled.div`
 export const Body = styled.div`
   display: grid;
   height: 728px;
-
   grid-template-columns: repeat(3, 1fr);
   gap: 16px 16px;
 
@@ -50,13 +49,13 @@ export const SelectBox = styled.div`
 
 export const Method = styled.div`
   background-color: ${(props: IMainStylePorps) =>
-    props.Methodfillter.length ? "#1565C0" : "#FFFFFF"};
+    props.Methodfillter.length ? "#1565C0" : "#FFF"};
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 9px 19px 9px 12px;
   color: ${(props: any) =>
-    props.Methodfillter.length ? "#FFFFFF" : "#323d45;"};
+    props.Methodfillter.length ? "#FFF" : "#323d45;"};
   font-size: 12px;
   width: 103px;
   height: 32px;
@@ -70,13 +69,13 @@ export const Method = styled.div`
 `;
 export const Material = styled.div`
   background-color: ${(props: any) =>
-    props.Materialfillter.length ? "#1565C0" : "#FFFFFF"};
+    props.Materialfillter.length ? "#1565C0" : "#FFF"};
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 9px 19px 9px 12px;
   color: ${(props: IMainStylePorps) =>
-    props.Materialfillter.length ? "#FFFFFF" : "#323d45;"};
+    props.Materialfillter.length ? "#FFF" : "#323d45;"};
   font-size: 12px;
   width: 91px;
   height: 32px;

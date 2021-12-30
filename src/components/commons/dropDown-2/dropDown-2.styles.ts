@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  padding: 17px 0px 17px 12px;
+  padding: 17px 0 17px 12px;
   z-index: 100;
 `;
 export const Item = styled.input`

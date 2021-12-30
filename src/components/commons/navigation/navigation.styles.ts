@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
   z-index: 1;
 `;
 export const MenuBar = styled.div`
-  background: #ffffff;
+  background: #fff;
   width: 70%;
   height: 100%;
 `;

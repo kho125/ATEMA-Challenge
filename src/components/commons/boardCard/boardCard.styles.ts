@@ -8,7 +8,6 @@ export const Body = styled.div`
 `;
 
 export const Contents = styled.div`
-  /* width: 366px; */
   height: 356px;
   border-radius: 4px;
   border: 1px solid #e5e5e5;

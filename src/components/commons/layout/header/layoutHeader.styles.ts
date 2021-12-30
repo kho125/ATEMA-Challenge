@@ -24,7 +24,7 @@ export const HeaderLeftWrapper = styled.div`
   justify-content: center;
   align-items: center;
   height: 100%;
-  padding: 25px 0px 25px 40px;
+  padding: 25px 0 25px 40px;
 `;
 
 export const HeaderRightWrapper = styled.div`
@@ -60,14 +60,14 @@ export const Factoryitle = styled.div`
   width: 67px;
   font-size: 14px;
   margin-right: 32px;
-  color: #ffffff;
+  color: #fff;
 `;
 export const Logout = styled.div`
-  border-left: 2px solid #ffffff;
+  border-left: 2px solid #fff;
   width: 124px;
   height: 20px;
   padding-left: 32px;
-  color: #ffffff;
+  color: #fff;
 `;
 export const MenueBox = styled.div`
   display: none;
@@ -85,11 +85,11 @@ export const Menu = styled.div`
   display: none;
 
   @media (max-width: 768px) {
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid #fff;
     width: 18px;
 
     display: block;
-    color: #ffffff;
+    color: #fff;
     margin-bottom: 3px;
   }
 `;
